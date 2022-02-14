@@ -97,7 +97,7 @@ const Header = () => {
           >
             Jetfolio
           </Typography>
-          {currentUser === null ? (
+          {!currentUser ? (
             <Button color="inherit" className={classes.subtitle}>
               Login
             </Button>
